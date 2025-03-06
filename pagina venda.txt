@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vendas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Produto Incrível</h1>
+        <p>Transforme sua vida com este produto revolucionário!</p>
+    </header>
+
+    <section id="beneficios">
+        <h2>Benefícios do Produto</h2>
+        <ul>
+            <li>Benefício 1: Melhora a eficiência</li>
+            <li>Benefício 2: Economiza tempo</li>
+            <li>Benefício 3: Fácil de usar</li>
+        </ul>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <blockquote>
+            <p>"Este produto mudou a minha vida!"</p>
+            <footer>- Cliente Satisfeito</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Recomendo a todos que conheço!"</p>
+            <footer>- Outro Cliente Feliz</footer>
+        </blockquote>
+    </section>
+
+    <section id="oferta">
+        <h2>Oferta Especial</h2>
+        <p>Adquira agora por apenas <strong>R$ 99,99</strong>!</p>
+        <button onclick="comprarAgora()">Comprar Agora</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function comprarAgora() {
+            alert('Obrigado por sua compra!');
+            // Aqui você pode redirecionar para a página de pagamento
+        }
+    </script>
+</body>
+</html>
